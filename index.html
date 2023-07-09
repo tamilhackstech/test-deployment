@@ -14,11 +14,10 @@
     <h2>Setting Up Git</h2>
     <ol>
       <li>Download and install Git from the official website: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
-      <li>Open a terminal or command prompt and configure your Git username and email using the following commands:
-        <pre><code>git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"</code></pre>
-      </li>
+      <li>Open a terminal or command prompt and configure your Git username and email using the following commands:</li>
     </ol>
+    <pre><code class="command">git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"</code></pre>
     <h2>Setting Up a GitHub Account</h2>
     <ol>
       <li>Go to the GitHub website: <a href="https://github.com">https://github.com</a></li>
@@ -33,25 +32,22 @@ git config --global user.email "youremail@example.com"</code></pre>
     </ol>
     <h2>Deploying Projects from GitHub to Vercel</h2>
     <ol>
-      <li>Create a GitHub repository for your project by following these steps:
-        <ol type="a">
-          <li>Click on the "+" button on the top-right corner of the GitHub website and select "New repository".</li>
-          <li>Give your repository a name, add an optional description, and choose whether it should be public or private.</li>
-          <li>Click on "Create repository" to create your GitHub repository.</li>
-        </ol>
-      </li>
-      <li>Push your project code to the GitHub repository using Git commands or a Git client. Assuming you have already initialized Git in your project folder, you can run the following commands in your terminal or command prompt:
-        <pre><code>git remote add origin https://github.com/your-username/your-repository.git
-git push -u origin master</code></pre>
-        Replace "your-username" with your GitHub username and "your-repository" with the name of your GitHub repository.
-      </li>
-      <li>In the Vercel dashboard, click on "New Project" and select the GitHub option.</li>
-      <li>Authorize Vercel to access your GitHub account.</li>
-      <li>Choose the repository you want to deploy from the list.</li>
-      <li>Configure the project settings, such as the framework and build command.</li>
-      <li>Click on "Deploy" to initiate the deployment process.</li>
-      <li>Vercel will build and deploy your project automatically, and provide you with a unique URL to access your live application.</li>
+      <li>Create a GitHub repository for your project by following these steps:</li>
     </ol>
+    <ol class="sub-list">
+      <li>Click on the "+" button on the top-right corner of the GitHub website and select "New repository".</li>
+      <li>Give your repository a name, add an optional description, and choose whether it should be public or private.</li>
+      <li>Click on "Create repository" to create your GitHub repository.</li>
+    </ol>
+    <li>Push your project code to the GitHub repository using Git commands or a Git client. Assuming you have already initialized Git in your project folder, you can run the following commands in your terminal or command prompt:</li>
+    <pre><code class="command">git remote add origin https://github.com/your-username/your-repository.git
+git push -u origin master</code></pre>
+    <li>In the Vercel dashboard, click on "New Project" and select the GitHub option.</li>
+    <li>Authorize Vercel to access your GitHub account.</li>
+    <li>Choose the repository you want to deploy from the list.</li>
+    <li>Configure the project settings, such as the framework and build command.</li>
+    <li>Click on "Deploy" to initiate the deployment process.</li>
+    <li>Vercel will build and deploy your project automatically, and provide you with a unique URL to access your live application.</li>
   </div>
 </body>
 </html>
